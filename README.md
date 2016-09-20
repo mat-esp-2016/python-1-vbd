@@ -65,16 +65,16 @@ alterne a pessoa que está fazendo os commits.
    devem ser feitos nesse notebook. Use as células de texto do notebook para
    descrever o que você quis fazer com cada bloco de código.
 3. Utilize o numpy para ler os dados do arquivo `dados/brazil-TAVG-Trend.txt`.
-4. Calcule a temperatura média e o desvio padrão da temperatura do Brasil ao
-   longo de todos os anos.
-5. Faça um gráfico da anomalia de temperatura média mensal (eixo y) pelo tempo
+4. Calcule a média e o desvio padrão da anomalia de temperatura anual do Brasil
+   ao longo de todos os anos.
+5. Faça um gráfico da anomalia de temperatura média anual (eixo y) pelo tempo
    (eixo x). Coloque nomes nos eixos e um título para o gráfico. Outros
    enfeites ficam a seu critério. O resultado deve ficar parecido ao que está
    no site:
 
 [![Figura do site.](http://berkeleyearth.lbl.gov/auto/Regional/TAVG/Figures/brazil-TAVG-Trend.png)](http://berkeleyearth.lbl.gov/regions/brazil)
 
-**BÔNUS**: Adicione no seu gráfico a média anual e o intervalo de +- duas
+**BÔNUS**: Adicione no seu gráfico a média de 10 anos e o intervalo de +- duas
 incertezas (95% uncertainty range) como na figura do site. (Veja na galeria do
 matplotlib como fazer isso.)
 
